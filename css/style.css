@@ -1,0 +1,167 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+a, p, li, div{
+	box-sizing: border-box;
+}
+h1, h2, h3{
+box-sizing: border-box;
+}
+
+
+.head{ 
+	background: linear-gradient(145deg,#2c2a41,#ab503b);
+	height: 827px;
+}
+
+
+.container{
+	height: 800px;
+	padding: 77px 370px;
+}
+
+
+
+.wrapper{
+	display:flex;
+	justify-content: space-between;
+	
+}
+
+/*section 1*/
+
+.txt{
+	text-align: left;
+	color: #fff;
+	margin-top: 130px;
+}
+
+/*head text 1*/
+.head_t1{
+font-family: 'Ubuntu', sans-serif;
+font-weight: 700;
+font-size: 37px;
+}
+
+span{
+font-size: 59px;
+}
+
+/*head text 2*/
+.head_t2{
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+font-weight: 400;
+}
+
+/*head text 3*/
+.btn{
+font-family: 'Montserrat', sans-serif;
+text-decoration: none;
+color: #000;
+user-select: none;
+background: #ffd429;
+padding: 10px 20px;
+border-radius: 4px;
+position: absolute;
+top: 565px;
+}
+
+.btn:hover{
+	background: #CEAA1C;
+}
+
+.btn:active{
+background: #AA8A17;
+}
+
+
+.section{
+	font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+.tabble{
+	display: flex;
+	justify-content: space-between;
+	margin: 7px 370px;
+	text-align: center;
+	padding-bottom:90px;
+}
+
+.h2{
+	text-align: center;
+	font-size: 30px;
+	padding-top: 90px;
+	margin-bottom: 30px;
+}
+
+.h3_tabl{
+	font-size: 19px;
+	margin-top: 10px;
+}
+
+.text{
+	margin-right: 30px;
+}
+
+
+/*section 2*/
+
+.forma{
+	height: 600px;
+	background: #ecf3f8;
+	text-align: center;
+	padding-top: 100px;
+}
+
+
+.form{
+padding-top: 30px;
+}
+
+
+.button{
+font-family: 'Montserrat', sans-serif;
+text-decoration: none;
+color: #000;
+user-select: none;
+background: #ffd429;
+padding: 10px 20px;
+border-radius: 4px;
+}
+
+.button:hover{
+	background: #CEAA1C;
+}
+
+.button:active{
+background: #AA8A17;
+}
+
+
+.input{
+width: 350px;
+height: 40px;
+opacity: 70%;
+border-radius: 4px;
+}
+
+
+
+/*footer*/
+.footp{
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+color: #fff;
+text-align: center;
+padding-top: 70px;
+}
+
+.foot{
+
+ height: 142px;
+ background: #164d7a;
+}
